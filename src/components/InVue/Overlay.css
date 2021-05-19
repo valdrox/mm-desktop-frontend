@@ -1,0 +1,22 @@
+.Overlay {
+	position: absolute;
+
+	display: flex;
+	flex-direction: column;
+}
+
+.Overlay.left {
+	left: 0;
+}
+
+.Overlay.right {
+	right: 0;
+}
+
+.Overlay.top {
+	top: 0;
+}
+
+.Overlay.bottom {
+	bottom: 0;
+}

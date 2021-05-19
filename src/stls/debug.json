@@ -1,0 +1,57 @@
+{
+    "id": 32,
+    "file": "https://med-files.s3.amazonaws.com/ct/5ef2f5d9c3c557d875d5d7855370ddbd__12022020_000738.nii.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIASXGC3SV7FBFLYLLN%2F20201202%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20201202T115938Z&X-Amz-Expires=600&X-Amz-SignedHeaders=host&X-Amz-Signature=ff313f99f3fda4976a5c2fa7cd9024b661417abb65d8c35efb80ac2f5c4facab",
+    "file_name": "verse034.nii.gz",
+    "uploaded_on": "2020-12-02T00:07:38.335798+01:00",
+    "result_file": "https://med-files.s3.amazonaws.com/results/5ef2f5d9c3c557d875d5d7855370ddbd__12022020_000738.glb?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIASXGC3SV7FBFLYLLN%2F20201202%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20201202T115939Z&X-Amz-Expires=600&X-Amz-SignedHeaders=host&X-Amz-Signature=10d088929498f8020d597d6f48269c47ed50f026ef003cbb55ab5f3d6c219b74",
+    "landmarks": {
+        "l1": {
+            "normal1": "(-147.00 ,-116.00 ,-52.00)",
+            "normal2": "(-146.00 ,-115.00 ,-46.00)",
+            "landmark1": "(8.03 ,-1.14 ,-8.40)",
+            "landmark2": "(9.03 ,-0.14 ,-2.40)"
+        },
+        "l2": {
+            "normal1": "(-142.00 ,-152.00 ,-51.00)",
+            "normal2": "(-143.00 ,-151.00 ,-47.00)",
+            "landmark1": "(6.89 ,-1.90 ,-8.28)",
+            "landmark2": "(5.89 ,-0.90 ,-4.28)"
+        },
+        "l3": {
+            "normal1": "(-139.00 ,-187.00 ,-52.00)",
+            "normal2": "(-138.00 ,-188.00 ,-46.00)",
+            "landmark1": "(5.18 ,-0.27 ,-9.97)",
+            "landmark2": "(6.18 ,-1.27 ,-3.97)"
+        },
+        "l4": {
+            "normal1": "(-136.00 ,-224.00 ,-50.00)",
+            "normal2": "(-135.00 ,-225.00 ,-44.00)",
+            "landmark1": "(8.94 ,0.52 ,-8.23)",
+            "landmark2": "(9.94 ,-0.48 ,-2.23)"
+        },
+        "l5": {
+            "normal1": "(-145.00 ,-261.00 ,-52.00)",
+            "normal2": "(-142.00 ,-264.00 ,-46.00)",
+            "landmark1": "(6.89 ,-1.59 ,-10.13)",
+            "landmark2": "(9.89 ,-4.59 ,-4.13)"
+        },
+        "th10": {
+            "normal1": "(-158.00 ,-20.00 ,-53.00)",
+            "normal2": "(-156.00 ,-23.00 ,-48.00)",
+            "landmark1": "(12.01 ,-1.22 ,-8.85)",
+            "landmark2": "(14.01 ,-4.22 ,-3.85)"
+        },
+        "th11": {
+            "normal1": "(-155.00 ,-49.00 ,-53.00)",
+            "normal2": "(-156.00 ,-48.00 ,-45.00)",
+            "landmark1": "(10.18 ,-0.10 ,-8.93)",
+            "landmark2": "(9.18 ,0.90 ,-0.93)"
+        },
+        "th12": {
+            "normal1": "(-152.00 ,-80.00 ,-52.00)",
+            "normal2": "(-155.00 ,-81.00 ,-47.00)",
+            "landmark1": "(7.11 ,0.62 ,-7.88)",
+            "landmark2": "(4.11 ,-0.38 ,-2.88)"
+        }
+    }
+}

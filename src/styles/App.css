@@ -1,0 +1,13 @@
+body, html{
+    height:100%;
+}
+
+#root{
+    height: 100%;
+    overflow: auto;
+}
+
+.active{
+    background-color: #F9920F!important;
+    border: none;
+}

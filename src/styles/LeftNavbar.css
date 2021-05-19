@@ -1,0 +1,33 @@
+.accordion .card{
+    border: none!important;
+}
+
+.accordion .card .card-header{
+    background-color: white!important;
+    border: none!important;
+}
+
+.accordion .card .card-header h2 button{
+    font-weight: 600!important;
+    font-size: 14px;
+}
+
+.accordion .card .collapses .card-body .input-group .input-group-prepend{
+    width: 75%!important;
+}
+
+.accordion .card .collapses .card-body .input-group .input-group-prepend input{
+    background-color: white!important;
+    border: none!important;
+    padding-left: 16px;
+}
+
+.accordion .card .collapses .card-body .input-group .input-group-text{
+    background-color: white!important;
+    border: none!important;
+}
+
+.accordion .card .collapses .card-body .input-group .input-group-text input{
+    width: 20px!important;
+    height: 20px!important;
+}

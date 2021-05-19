@@ -1,0 +1,314 @@
+.navbar{
+    background-color: white!important;
+    height: 73px;
+}
+
+.navbar .start-now{
+    background-color:  #343A3F;
+    color: white;
+    font-size: 14px;
+    line-height: 18px;
+    width: 117px;
+    height: 42px;
+    border: none;
+    outline: none;
+    margin: 0 10px 0 0;
+    border-radius: 4px;
+}
+
+.navbar .start-now:hover{
+    background-color: #000000;
+    color: #ffffff
+}
+
+.navbar .nav-link{
+    color: black;
+}
+
+.login{
+    background-color: white;
+    color: #393939;
+    font-size: 14px;
+    line-height: 18px;
+    width: 75px;
+    height: 42px;
+    outline: none;
+    border: 1px solid #393939;
+    margin: 0 10px 0 0;
+    border-radius: 4px;
+}
+
+.login:hover{
+    background-color: #343A3F;
+    color: white;
+}
+
+.first_section{
+    height: 680px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first_section .text{
+    color: white;
+    text-align: center;
+}
+
+.first_section h1{
+    font-size: 64px;
+}
+
+#start-demo{
+    background-color: #F9A743;
+    color: white;
+    font-size: 18px;
+    line-height: 24.51px;
+    width: 341px!important;
+    height: 50px!important;
+    border: none;
+    outline: none;
+    margin: 0 10px 0 0;
+    border-radius: 4px;
+}
+
+.first_section .start-demo:hover{
+    background-color: #F79012;
+    text-decoration: none;
+    color: #343A3F;
+}
+
+.second_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.second_section .text{
+    width: 55%;
+}
+
+.third_section{
+    height: 660px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.third_section div.first_column{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.third_section div.first_column div{
+    width: 60%;
+    height: 100%;
+}
+
+.third_section div.second_column{
+    text-align: center;
+}
+
+.third_section img{
+    width:445px;
+    height:580px;
+}
+
+.fourth_section{
+    height: 560px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fifth_section{
+    text-align: center;
+    height: 480px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fifth_section .content{
+    text-align: center;
+}
+
+.fifth_section .get-in-touch{
+    background-color: #F9A743;
+    color: white;
+    width: 500px;
+    height: 42px;
+    border: none;
+    border-radius: 2px;
+}
+
+.input_parent{
+    text-align: center;
+}
+
+.fifth_section .get-in-touch:hover{
+    background-color: #F79012;
+}
+
+.footer{
+    background-color: #000000;
+    color: white;
+    height: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .content{
+    text-align: center;
+}
+
+/*
+.first_section .display{
+    font-size: 44px;
+    font-weight: 700;
+}
+
+
+.first_section .lead{
+    font-size: 16px;
+}
+
+.first_section .learn-more{
+    background-color: white;
+    color: #343A3F;
+    font-size: 14px;
+    line-height: 18px;
+    width: 117px;
+    height: 42px;
+    outline: none;
+    border: 1px solid #343A3F;
+    border-radius: 2px;
+}
+
+.first_section .learn-more:hover{
+    background-color: #343A3F;
+    color: white;
+}
+
+.first_section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 560px;
+}
+
+.start-demo{
+    background-color: #F9A743;
+    color: #343A3F;
+    font-size: 14px;
+    line-height: 18px;
+    width: 117px!important;
+    height: 42px!important;
+    border: none;
+    outline: none;
+    margin: 0 10px 0 0;
+    border-radius: 2px;
+}
+
+.start-demo:hover{
+    background-color: #F79012;
+}
+
+.start-demo:hover{
+    text-decoration: none;
+    color: #343A3F;
+}
+
+
+.second_section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 660px;
+    color: white;
+}
+
+.second_section .takeALook{
+    background-color: #343A3F;
+    color: white;
+    border: none;
+    width: 123px;
+    height: 42px;
+    border-radius: 2px;
+}
+
+.second_section .takeALook:hover{
+    background-color: #000000;
+}
+
+.third_section{
+    background-color: #F9A743;
+    width: 100%!important;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.third_section .card{
+    text-align: center;
+    outline: none;
+    border: none;
+}
+
+.third_section .learn-more{
+    font-size: 14px;
+    color: #F9A743;
+    text-decoration: underline;
+}
+
+.third_section .learn-more:hover{
+    color: #343A3F;
+}
+
+.nav-link:hover{
+    text-decoration: underline;
+}
+
+.third_section .columns{
+    display: flex;
+    justify-content: center;
+}
+
+.fourth_section{
+    text-align: center;
+    height: 502px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fourth_section .get-in-touch{
+    background-color: #F9A743;
+    color: white;
+    width: 100%;
+    height: 42px;
+    border: none;
+    border-radius: 2px;
+}
+
+.fourth_section .get-in-touch:hover{
+    background-color: #F79012;
+}
+
+.footer{
+    background-color: #000000;
+    color: white;
+    height: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .content{
+    text-align: center;
+}*/

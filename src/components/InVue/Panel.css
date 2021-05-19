@@ -1,0 +1,130 @@
+.Panel {
+	display: flex;
+	flex-direction: column;
+	background-color: #262626; /* Grey90 – should probably be a CSS variable */
+	max-height: 100%;
+	color: white;
+}
+
+.Panel.left {
+	width: 240px;
+	height: 665px;
+	padding: 14px 16px;
+	overflow-y: auto;
+}
+
+.Panel.left summary {
+	font-size: 14px;
+	height: 30px;
+	padding: 2px 10px;
+}
+
+.lists{
+	height: 28px;
+}
+
+summary{
+	outline: none;
+}
+
+.lists input{
+	width: 18px;
+	height: 18px;
+	margin-top: 4px!important;
+}
+
+.Panel.left summary:active{
+	border: none;
+	outline: none;
+}
+
+.Panel.left summary:hover, .Panel.left li:hover {
+	background-color: #0056CE; /* Blue 70 */
+}
+
+.Panel.left .vertebrae label {
+	text-transform: uppercase;
+	display: flex;
+	justify-content: space-between;
+}
+
+.Panel.right {
+	width: 280px;
+}
+
+.Panel.right .options{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.Panel.right .options h5{
+	padding-top:6px;
+}
+
+.Panel .row.card {
+	background-color: #393939; /* Grey80 */
+	border: 1px solid #6F6F6F; /* Grey60 */
+	border-radius: 4px;
+	padding: 8px;
+	margin-bottom: 8px;
+}
+
+.Panel.right .screw_size{
+	padding: 10px;
+	border-radius: 4px;
+}
+
+.rightbar_information .screw_size{
+	padding: 10px;
+	width: 100%;
+	color:white;
+}
+
+.screw_size_select{
+	padding: 10px;
+	width: 100%;
+	height: 50px;
+	outline: none;
+	border: none;
+	background-color: #393939;
+	color:white;
+	border-radius: 4px;
+}
+
+
+.rightbar_information .screw_position{
+	padding: 10px;
+	width: 100%;
+	height: 300px;
+	margin-top: 25px!important;
+}
+
+.rightbar_information .screw_position .no-gutters{
+	margin-top: 10px!important;
+}
+
+.rightbar_information .screw_position input{
+	border-radius: 4px;
+	width: 100%;
+	color: white;
+	text-align: center;
+	background-color: #393939;
+}
+
+.rightbar_information .export_plan_parent{
+	width: 100%;
+	text-align: center;
+}
+
+.rightbar_information .export_plan{
+	width: 95%;
+	height: 88px;
+	color: black;
+	background-color: white;
+	border-radius: 8px;
+	border: 0;
+	outline: 0;
+	font-size: 14px;
+	font-weight: 700;
+}
